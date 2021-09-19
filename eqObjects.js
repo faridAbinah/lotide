@@ -48,3 +48,10 @@ const abc = { a: "1", b: "2", c: "3" };
 assertEqual(eqObjects(ab, abc),false);
 
 assertEqual(eqObjects(ab, ba),true);
+
+const cd = { c: "1", d: ["2", 3] };
+const dc = { d: ["2", 3], c: "1" };
+// => true
+console.log(eqObjects(cd, dc));
+const cd2 = { c: "1", d: ["2", 3, 4] };
+console.log(eqObjects(cd, cd2)); // false
