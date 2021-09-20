@@ -1,12 +1,4 @@
-let assertEqual = function(actual, expected) {
 
-  if (actual === expected) {
-    return console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    return console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-
-};
 
 let head = function(array) {
   let head;
@@ -16,6 +8,11 @@ let head = function(array) {
 
 };
 
+module.exports = head;
+console.log(module);
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+
+
+
+
+
