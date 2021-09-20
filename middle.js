@@ -16,8 +16,7 @@ const eqArrays = function(arrayOne,arrayTwo) {
 
 const assertArraysEqual = function(arrayOne,arrayTwo) {
   
-  console.log(arrayOne,arrayTwo);
-  console.log(eqArrays(arrayOne,arrayTwo));
+ 
 
   if (eqArrays(arrayOne,arrayTwo)) {
     return console.log(`✅✅✅ Assertion Passed: ${arrayOne} === ${arrayTwo}`);
@@ -48,10 +47,6 @@ const middle = function(array) {
   
 
 
+module.exports = middle;
 
-//assertArraysEqual([1, 2, 3], [1, 2, 4]);
 
-console.log(middle([1,2,3,4,5,6]));
-console.log(middle([1,2,3,4,5]));
-console.log(middle([1,2,3,4,5]));
-console.log(assertArraysEqual(middle([1,2,7,4,5]),middle([1,2,7,4,5])));
