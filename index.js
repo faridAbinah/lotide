@@ -13,18 +13,17 @@ const takeUntill = require('./takeUntil');
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  countLetters: countLetters,
-  countOnly:    countOnly,
-  eqArrays:     eqArrays,
-  eqObjects:    eqObjects,
-  findKey:      findKey,
-  findKeyByValue: findKeyByValue,
-  letterPosition:   letterPosition,
-  map:              map,
-  takeUntill:       takeUntill
+head,
+tail,
+middle,
+countLetters,
+countOnly,
+eqArrays,
+eqObjects,
+findKey,
+findKeyByValue,
+letterPosition,
+map,
+takeUntill
 };
 
-console.log(module);
